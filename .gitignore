@@ -3,8 +3,27 @@
 /.env.local
 /.env.local.php
 /.env.*.local
+/.env.test
 /config/secrets/prod/prod.decrypt.private.php
 /public/bundles/
 /var/
 /vendor/
+/bin/phpunit
+/.DS_Store
+*/.DS_Store
+/var/cache/*
+/var/log/*
+/var/sessions/*
+/var/cache/*/profiler/
+/var/cache/dev/profiler/
 ###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
